@@ -7,9 +7,9 @@
     <link rel="stylesheet" href="styles.css"> 
 </head>
 
-<body style="background-color: #FFFFFF;">
+<body style="background-color: #B8E2F2;">
  
-    <nav style="text-align: center; padding: 20px; background-color: #FFFFFF;">
+    <nav style="text-align: center; padding: 20px; background-color: #B8E2F2;">
     <ul style="list-style-type: none; margin: 0; padding: 0;">
         <li style="display: inline; margin-right: 30px;"><a href="index.html" style="text-decoration: none; color: #000000; font-weight: bold; font-size: 20px;">Home</a></li>
         <li style="display: inline; margin-right: 30px;"><a href="topic.html" style="text-decoration: none; color: #000000; font-weight: bold; font-size: 20px;">Topic</a></li>
@@ -22,10 +22,20 @@
 	</nav>
 
     <main>
-    <section style="text-align: center; padding: 250px;">
+    <section style="text-align: center; padding: 150px;">
 		
         <h2 style="font-size: 100px; color: #333; margin-bottom: 15px;">The effects of excessive smartphone use on adolescents' mental health</h2>
     </section>
     </main>
+	<script>
+
+    var currentUrl = window.location.href;
+    var navLinks = document.querySelectorAll('nav a');
+    for (var i = 0; i < navLinks.length; i++) {
+        if (navLinks[i].href === currentUrl) {
+            navLinks[i].classList.add('active-link');
+        }
+    }
+	</script>
 </body>
 </html>
