@@ -6,6 +6,7 @@
     <title>Topic Page</title>
     <link rel="stylesheet" href="styles.css"> 
     <style>
+
         body {
             font-family: Arial, sans-serif;
             display: flex;
@@ -17,53 +18,70 @@
             padding: 30px;
         }
         .title {
-            font-size: 36px;
-            margin-bottom: 15px;
+            text-align: center;
         }
         .description {
             text-align: center;
-            max-width: 60%; 
-            margin: 0 auto; 
         }
-
+        
     </style>
 </head>
 <body style="background-color: #B8E2F2;">
  
     <nav style="text-align: center; padding: 20px; background-color: #B8E2F2;">
-        <ul style="list-style-type: none; margin: 0; padding: 0;">
-            <li style="display: inline; margin-right: 30px;"><a href="index.html" style="text-decoration: none; color: #000000; font-weight: bold; font-size: 20px;">Home</a></li>
-            <li style="display: inline; margin-right: 30px;"><a href="topic.html" style="text-decoration: none; color: #000000; font-weight: bold; font-size: 20px;">Topic</a></li>
-            <li style="display: inline; margin-right: 30px;"><a href="opportunities.html" style="text-decoration: none; color: #000000; font-weight: bold; font-size: 20px;">Opportunities</a></li>
-            <li style="display: inline; margin-right: 30px;"><a href="risks.html" style="text-decoration: none; color: #000000; font-weight: bold; font-size: 20px;">Risks</a></li>
-            <li style="display: inline; margin-right: 30px;"><a href="choices.html" style="text-decoration: none; color: #000000; font-weight: bold; font-size: 20px;">Choices</a></li>
-            <li style="display: inline; margin-right: 30px;"><a href="references.html" style="text-decoration: none; color: #000000; font-weight: bold; font-size: 20px;">References</a></li>
-			<li style="display: inline; margin-right: 30px;"><a href="credits.html" style="text-decoration: none; color: #000000; font-weight: bold; font-size: 20px;">Group 5</a></li>
-        </ul>
-    </nav>
+    <ul style="list-style-type: none; margin: 0; padding: 0;">
+        <li style="display: inline; margin-right: 30px;"><a href="index.html" style="text-decoration: none; color: #000000; font-weight: bold; font-size: 20px;">Home</a></li>
+        <li style="display: inline; margin-right: 30px;"><a href="topic.html" style="text-decoration: none; color: #000000; font-weight: bold; font-size: 20px;">Topic</a></li>
+        <li style="display: inline; margin-right: 30px;"><a href="opportunities.html" style="text-decoration: none; color: #000000; font-weight: bold; font-size: 20px;">Opportunities</a></li>
+        <li style="display: inline; margin-right: 30px;"><a href="risks.html" style="text-decoration: none; color: #000000; font-weight: bold; font-size: 20px;">Risks</a></li>
+        <li style="display: inline; margin-right: 30px;"><a href="choices.html" style="text-decoration: none; color: #000000; font-weight: bold; font-size: 20px;">Choices</a></li>
+        <li style="display: inline; margin-right: 30px;"><a href="references.html" style="text-decoration: none; color: #000000; font-weight: bold; font-size: 20px;">References</a></li>
+		<li style="display: inline; margin-right: 30px;"><a href="credits.html" style="text-decoration: none; color: #000000; font-weight: bold; font-size: 20px;">Group 5</a></li>
+    </ul>
+	</nav>
 
-    <main>
-        <section class="container">
-            <h1 class="title">The effects of excessive smartphone use on adolescents' mental health</h1>
-            </div>
-            <div class="description">
-                <p>Paragraph 1 goes here.</p>
-                <p>Paragraph 2 goes here.</p>
-                <p>Paragraph 3 goes here.</p>
-                <p>Paragraph 4 goes here.</p>
-                <p>Paragraph 5 goes here. etc</p>
-            </div>
-        </section>
-    </main>
+	<main>
+		<section class="container">
+			<div class="title">
+				<h1 style="font-size: 36px;"> The effects of excessive smartphone use on adolescents' mental health</h1>
+			</div>
+			<div class="description">
+				<p>In modern society, technology is evolving constantly, and digital culture shapes our everyday
+lives and interactions.<br> Due to their accessibility, smartphones are now the preferred online
+device in modern society, making adolescents the most digitally immersed generation yet.</p>
 
-    <script>
-        var currentUrl = window.location.href;
-        var navLinks = document.querySelectorAll('nav a');
-        for (var i = 0; i < navLinks.length; i++) {
-            if (navLinks[i].href === currentUrl) {
-                navLinks[i].classList.add('active-link');
-            }
+				<p>However, despite its benefits, digital connectivity poses challenges. Karsay et al (2019) define
+excess smartphone use as “overly high cognitive, emotional, and behavioral involvement with
+the smartphone” (p. 706). <br>Individuals experience considerable physical, emotional, and social
+shifts and excessive use of smartphones can amplify these challenges, and as a result, mental
+health can be significantly impacted.<br> It’s imperative to mention that adolescence is a vital phase
+of psychological development, and mental health during this time is crucial (Al-Yateem et al.,
+2019).</p>
+
+                <h2 style="font-size: 36px;">Justifying Topic</h2>
+                <p>Over the past decade, smartphone use has risen rapidly, especially among young adults (Mohd
+Salleh Sahimi et al., 2022). In New Zealand, smartphones are the preferred device for children
+at 76%, whereas among teenagers between 15-17, this increases to 93% (Netsafe, 2019).
+Smartphones have not only revolutionized the lives of adolescents, but also modern society as
+a whole by providing instant access to information, effortless communication, and in adolescents
+in particular - a sense of autonomy. However, despite the undeniable benefits, the risks
+associated with smartphone addiction, particularly its effects on the mental and emotional health
+of adolescents, are too pressing to overlook. Lacking one can subject youths to bullying and
+feelings of exclusion. This brings us to the ethical concerns of smartphone use, which include
+access, privacy, and educational balance.</p>
+			</div>
+		</section>
+	</main>
+	<script>
+
+    var currentUrl = window.location.href;
+    var navLinks = document.querySelectorAll('nav a');
+    for (var i = 0; i < navLinks.length; i++) {
+        if (navLinks[i].href === currentUrl) {
+            navLinks[i].classList.add('active-link');
         }
-    </script>
+    }
+	</script>
 </body>
 </html>
+
